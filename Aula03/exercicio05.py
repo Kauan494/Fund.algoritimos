@@ -1,6 +1,9 @@
-a = float(input("Digite um valor:"))
+anoatual = int(input("Escreva o ano atual:"))
+anonasc = int(input("Escreva o seu ano de nascimento:"))
 
-if a < 0:
-    print("Negativo")
+idade = (anoatual - anonasc)
+
+if idade >= 18:
+    print("Você já pode tirar CNH!")
 else:
-    print("Positivo")
+    print("Você ainda não pode tirar CNH!")

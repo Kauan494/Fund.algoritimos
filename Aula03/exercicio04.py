@@ -1,10 +1,11 @@
+a = float(input("Digite o salário do funcionário: R$"))
+aumento =(a *0.10)
+aumento2 =(a *0.15)
+if a > 1250.00:
+    novo_salario = a + aumento
+elif a <= 1250.00:
+   novo_salario = a + aumento2
 
-numero1 = int(input("Digite um número:"))
-numero2 = int(input("Digite outo núnero:"))
-
-if numero1 > numero2:
-    print("Maior:", numero1)
-else:
-    print("Maior:", numero2)
+print("Novo salário é: R$", novo_salario)
 
 
