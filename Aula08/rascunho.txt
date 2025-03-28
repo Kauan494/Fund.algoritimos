@@ -1,0 +1,47 @@
+Lista é UMA VÁRIAVEL QUE ARAMAZENA UM CONJUNTO DE VALORES 
+
+L = [] --> INDICA QUE UMA VÁRIAVEK É UMA LISTA
+
+Z =[A(0),B(1),C(2)] --> DIZEMOS QUE A LISTA TEM TAMANHO DE TRES 
+ELEMENTOS(CONSEGUE ARMAZENAR TRÊS VALORES) 
+
+PRINT(Z[O]) --> PEDIU PARA PRINTAR O PRIMEIRO ELEMENTO
+OU SEJA SERÁ PRINTADO O ELEMENTO 'A'
+
+Z.APPEND('OI') --> USADO PARA ADICIONAR UM NOVO ELEMENTO PARA A LISTA
+FICARIA: [A,B,C,'OI']
+
+Z.INSERT(1(INDICE),'OI'(ITEM)) --> USADO PARA ADICIONAR O ELEMENTO 
+EM QUALQUE LUGAR DA LISTA FICARIA: [A(0),'OI'(1),B(2),C(3)] O ELEMENTO 
+FICARÁ NA POSIÇÃO 2 OU INDICE 1 DA LISTA 
+
+POP(INDICE) --> REMOVE O INDICE INFORMADO DA LISTA 
+
+REMOVE(ITEM) --> REMOVE UM ITEM ESPECIFICO DA LISTA 
+
+LEN(LISTA) --> INFORMA O TAMANHO DA LISTA 
+
+EXEMPLO DE COMO ENCONTRAR UM ELEMNETO NA LISTA:
+z = ['a','b','c','d','e']
+for elemento in z:
+    if elemento == 'c':
+        print('Elemento encontrado!')
+        break
+else:
+    print('Elemento não encontrado!')
+
+OUTRO EXEMPLO É:
+z = ['a','b','c','d','e']
+if 'c' in z:
+    print('Encontrado!')
+else:
+    print('Não encontrado!')
+
+É POSSÍVEL FATIAR A LISTA, OU SEJA PEGAR PARTES
+DA LISTA 
+EX:
+p = [42,13,82,63,80,09]
+print(p[0:5]) --> deixa a lista com 5 elementos
+print(p[:4]) --> deixa a lista com 4 elementos 
+print(p[1:3]) --> deixa a lista com 2 elementos 
+print(p[-1]) 
