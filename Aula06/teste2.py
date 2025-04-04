@@ -1,5 +1,11 @@
-linhas = int(input("Digite a quantidade de linhas: "))
-for i in range(linhas):
-    for j in range(linhas):
-        print(j, end='')
-print()
+def quadrado(lista):
+    for i in range(len(lista)):
+        num = i**2
+        nova_lista.append(num)
+        return nova_lista
+
+
+
+
+
+
