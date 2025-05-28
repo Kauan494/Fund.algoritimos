@@ -1,0 +1,16 @@
+O dicionário é uma estrutura de dados, onde são maneiras de se organizar os dados
+
+São usadas para armazenar valores como um mapa por meio de
+elementos formados pelo par chave e valor
+
+del --> é utilizado para remover um elemento
+
+{values() --> pega os valores que estão nas chaves
+keys() --> pega as chaves dos dicionários
+items() --> pega tanto os valores e as chaves } São bastantes utilizados em laços
+                                                 de repetição
+
+É possível colocar dicionários dentro de listas 
+
+Para adicionar um elemento dentro do dicionário basta colocar:
+nome_dicionario[a chave que ira adicionar] = "valor dessa chave nova"
